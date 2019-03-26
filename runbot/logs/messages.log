@@ -1,0 +1,1875 @@
+ERROR 2019-03-11T14:16:59 supybot Invalid user dictionary file, resetting to empty.
+ERROR 2019-03-11T14:16:59 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\conf\\users.conf'
+ERROR 2019-03-11T14:16:59 supybot Invalid channel database, resetting to empty.
+ERROR 2019-03-11T14:16:59 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\conf\\channels.conf'
+WARNING 2019-03-11T14:16:59 supybot Couldn't open ignore database: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\conf\\ignores.conf'
+INFO 2019-03-11T14:20:58 supybot Creating directory C:\dev\IRC\runbot\data\GPGkeyring
+INFO 2019-03-11T14:22:24 supybot Shutdown initiated.
+INFO 2019-03-11T14:22:24 supybot Killing Driver objects.
+INFO 2019-03-11T14:22:24 supybot Killing Irc objects.
+INFO 2019-03-11T14:22:24 supybot Shutdown complete.
+INFO 2019-03-11T14:23:23 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-11T14:23:23 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2019-03-11T14:23:33 supybot Server asimov.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-11T14:23:33 supybot Got end of MOTD from asimov.freenode.net
+ERROR 2019-03-11T14:23:39 supybot Unhandled error message from server: IrcMsg(prefix="asimov.freenode.net", command="477", args=('scoobiebot2', '#snort', 'Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration'))
+INFO 2019-03-11T14:35:28 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-03-11T14:35:28 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T14:35:28 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-11T14:35:28 supybot Irc object for freenode dying.
+INFO 2019-03-11T14:35:28 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-11T14:35:28 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-11T14:35:28 supybot Total uptime: 12 minutes and 5 seconds.
+INFO 2019-03-11T14:35:28 supybot Total CPU time taken: 0.86 seconds.
+INFO 2019-03-11T14:35:28 supybot No more Irc objects, exiting.
+INFO 2019-03-11T14:35:28 supybot Shutdown initiated.
+INFO 2019-03-11T14:35:28 supybot Killing Driver objects.
+INFO 2019-03-11T14:35:28 supybot Killing Irc objects.
+INFO 2019-03-11T14:35:28 supybot Writing registry file to scoobiebot2.conf
+INFO 2019-03-11T14:35:28 supybot Finished writing registry file.
+INFO 2019-03-11T14:35:28 supybot Shutdown complete.
+INFO 2019-03-11T14:41:29 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-11T14:41:29 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2019-03-11T14:41:40 supybot freenode: SASL authentication successful
+INFO 2019-03-11T14:41:41 supybot Server orwell.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-11T14:41:41 supybot Got end of MOTD from orwell.freenode.net
+INFO 2019-03-11T14:41:49 supybot Join to #snort on freenode synced in 2.73 seconds.
+INFO 2019-03-11T14:43:29 supybot help called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-11T14:43:36 supybot list called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-11T14:43:52 supybot help called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-11T14:43:53 supybot list called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-11T14:43:58 supybot acmd called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-11T14:43:58 supybot Preventing happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net from calling admin because of -admin.
+WARNING 2019-03-11T14:43:58 supybot Denying happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net for lacking "admin" capability.
+INFO 2019-03-11T14:44:09 supybot whoami called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-11T14:45:16 supybot help called in private by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-11T14:45:39 supybot identify called in private by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-11T14:46:15 supybot hostmask called in private by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-11T14:46:15 supybot hostmask add called in private by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-11T15:17:04 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-11T15:17:04 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2019-03-11T15:17:11 supybot freenode: SASL authentication successful
+INFO 2019-03-11T15:17:11 supybot Server orwell.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-11T15:17:11 supybot Got end of MOTD from orwell.freenode.net
+INFO 2019-03-11T15:17:20 supybot Join to #snort on freenode synced in 2.63 seconds.
+INFO 2019-03-11T15:17:25 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-03-11T15:17:25 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T15:17:25 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-11T15:17:25 supybot Irc object for freenode dying.
+INFO 2019-03-11T15:17:25 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-11T15:17:25 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-11T15:17:25 supybot Total uptime: 22 seconds.
+INFO 2019-03-11T15:17:25 supybot Total CPU time taken: 1.02 seconds.
+INFO 2019-03-11T15:17:25 supybot No more Irc objects, exiting.
+INFO 2019-03-11T15:17:25 supybot Shutdown initiated.
+INFO 2019-03-11T15:17:25 supybot Killing Driver objects.
+INFO 2019-03-11T15:17:25 supybot Killing Irc objects.
+INFO 2019-03-11T15:17:25 supybot Writing registry file to happybot2.conf
+INFO 2019-03-11T15:17:25 supybot Finished writing registry file.
+INFO 2019-03-11T15:17:25 supybot Shutdown complete.
+INFO 2019-03-11T15:17:28 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-11T15:17:28 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2019-03-11T15:17:31 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-03-11T15:17:31 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T15:17:31 supybot Irc object for freenode dying.
+INFO 2019-03-11T15:17:31 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-11T15:17:31 supybot Total uptime: 4 seconds.
+INFO 2019-03-11T15:17:31 supybot Total CPU time taken: 0.80 seconds.
+INFO 2019-03-11T15:17:31 supybot No more Irc objects, exiting.
+INFO 2019-03-11T15:17:31 supybot Shutdown initiated.
+INFO 2019-03-11T15:17:31 supybot Killing Driver objects.
+INFO 2019-03-11T15:17:31 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-11T15:17:31 supybot Killing Irc objects.
+INFO 2019-03-11T15:17:31 supybot Writing registry file to happybot2.conf
+INFO 2019-03-11T15:17:31 supybot Finished writing registry file.
+INFO 2019-03-11T15:17:31 supybot Shutdown complete.
+INFO 2019-03-11T15:18:26 supybot Connecting to chat.freenode.net:6697.
+INFO 2019-03-11T15:18:36 supybot freenode: SASL authentication successful
+INFO 2019-03-11T15:18:36 supybot Server orwell.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-11T15:18:37 supybot Got end of MOTD from orwell.freenode.net
+INFO 2019-03-11T15:18:45 supybot Join to #snort on freenode synced in 2.78 seconds.
+INFO 2019-03-11T16:18:27 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T17:18:28 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T18:18:29 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T19:18:29 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T20:18:29 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T21:18:30 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T22:18:31 supybot Flushers flushed and garbage collected.
+INFO 2019-03-11T23:18:31 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T00:18:32 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T01:18:32 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T02:18:33 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T03:18:34 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T04:18:34 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T05:18:35 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T06:18:36 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T07:18:36 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T08:18:37 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T09:18:38 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T10:18:38 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T11:18:39 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T12:18:40 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T13:18:41 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T14:18:42 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T15:18:42 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T16:18:42 supybot Flushers flushed and garbage collected.
+INFO 2019-03-12T17:18:43 supybot Flushers flushed and garbage collected.
+INFO 2019-03-13T16:33:27 supybot Connecting to chat.freenode.net:6697.
+INFO 2019-03-13T16:33:37 supybot freenode: SASL authentication successful
+INFO 2019-03-13T16:33:37 supybot Server livingstone.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-13T16:33:37 supybot Got end of MOTD from livingstone.freenode.net
+INFO 2019-03-13T16:33:46 supybot Join to #snort on freenode synced in 2.35 seconds.
+INFO 2019-03-15T12:26:02 supybot Connecting to chat.freenode.net:6697.
+INFO 2019-03-15T12:26:10 supybot freenode: SASL authentication successful
+INFO 2019-03-15T12:26:11 supybot Server verne.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-15T12:26:11 supybot Got end of MOTD from verne.freenode.net
+INFO 2019-03-15T12:26:19 supybot Join to #meowrabbit on freenode synced in 2.29 seconds.
+INFO 2019-03-20T13:47:19 supybot Connecting to chat.freenode.net:6697.
+INFO 2019-03-20T13:47:28 supybot freenode: SASL authentication successful
+INFO 2019-03-20T13:47:28 supybot Server tolkien.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-20T13:47:28 supybot Got end of MOTD from tolkien.freenode.net
+INFO 2019-03-20T13:47:37 supybot Join to #meowrabbit on freenode synced in 2.16 seconds.
+INFO 2019-03-20T14:08:56 supybot help called on #meowrabbit by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T14:13:57 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-03-20T14:13:58 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T14:13:58 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-20T14:13:58 supybot Irc object for freenode dying.
+INFO 2019-03-20T14:13:58 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-20T14:13:58 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-20T14:13:58 supybot Total uptime: 26 minutes and 39 seconds.
+INFO 2019-03-20T14:13:58 supybot Total CPU time taken: 1.02 seconds.
+INFO 2019-03-20T14:13:58 supybot No more Irc objects, exiting.
+INFO 2019-03-20T14:13:58 supybot Shutdown initiated.
+INFO 2019-03-20T14:13:58 supybot Killing Driver objects.
+INFO 2019-03-20T14:13:58 supybot Killing Irc objects.
+INFO 2019-03-20T14:13:58 supybot Writing registry file to happybot2.conf
+INFO 2019-03-20T14:13:58 supybot Finished writing registry file.
+INFO 2019-03-20T14:13:58 supybot Shutdown complete.
+INFO 2019-03-20T14:22:45 supybot Shutdown initiated.
+INFO 2019-03-20T14:22:45 supybot Killing Driver objects.
+INFO 2019-03-20T14:22:45 supybot Killing Irc objects.
+INFO 2019-03-20T14:22:45 supybot Shutdown complete.
+INFO 2019-03-20T14:39:25 supybot Shutdown initiated.
+INFO 2019-03-20T14:39:25 supybot Killing Driver objects.
+INFO 2019-03-20T14:39:25 supybot Killing Irc objects.
+INFO 2019-03-20T14:39:25 supybot Shutdown complete.
+INFO 2019-03-20T14:42:17 supybot Shutdown initiated.
+INFO 2019-03-20T14:42:17 supybot Killing Driver objects.
+INFO 2019-03-20T14:42:17 supybot Killing Irc objects.
+INFO 2019-03-20T14:42:17 supybot Shutdown complete.
+INFO 2019-03-20T14:43:03 supybot Shutdown initiated.
+INFO 2019-03-20T14:43:03 supybot Killing Driver objects.
+INFO 2019-03-20T14:43:03 supybot Killing Irc objects.
+INFO 2019-03-20T14:43:03 supybot Shutdown complete.
+INFO 2019-03-20T14:44:21 supybot Shutdown initiated.
+INFO 2019-03-20T14:44:21 supybot Killing Driver objects.
+INFO 2019-03-20T14:44:21 supybot Killing Irc objects.
+INFO 2019-03-20T14:44:21 supybot Shutdown complete.
+INFO 2019-03-20T14:45:39 supybot Shutdown initiated.
+INFO 2019-03-20T14:45:39 supybot Killing Driver objects.
+INFO 2019-03-20T14:45:39 supybot Killing Irc objects.
+INFO 2019-03-20T14:45:39 supybot Shutdown complete.
+INFO 2019-03-20T14:46:24 supybot Shutdown initiated.
+INFO 2019-03-20T14:46:24 supybot Killing Driver objects.
+INFO 2019-03-20T14:46:24 supybot Killing Irc objects.
+INFO 2019-03-20T14:46:24 supybot Shutdown complete.
+INFO 2019-03-20T14:47:46 supybot Shutdown initiated.
+INFO 2019-03-20T14:47:46 supybot Killing Driver objects.
+INFO 2019-03-20T14:47:46 supybot Killing Irc objects.
+INFO 2019-03-20T14:47:46 supybot Shutdown complete.
+INFO 2019-03-20T14:55:32 supybot Shutdown initiated.
+INFO 2019-03-20T14:55:32 supybot Killing Driver objects.
+INFO 2019-03-20T14:55:32 supybot Killing Irc objects.
+INFO 2019-03-20T14:55:32 supybot Shutdown complete.
+INFO 2019-03-20T14:58:42 supybot Shutdown initiated.
+INFO 2019-03-20T14:58:42 supybot Killing Driver objects.
+INFO 2019-03-20T14:58:42 supybot Killing Irc objects.
+INFO 2019-03-20T14:58:42 supybot Shutdown complete.
+WARNING 2019-03-20T14:59:15 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+WARNING 2019-03-20T14:59:15 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+INFO 2019-03-20T15:03:39 supybot Shutdown initiated.
+INFO 2019-03-20T15:03:39 supybot Killing Driver objects.
+INFO 2019-03-20T15:03:39 supybot Killing Irc objects.
+INFO 2019-03-20T15:03:39 supybot Shutdown complete.
+INFO 2019-03-20T15:05:17 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-20T15:05:17 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2019-03-20T15:05:17 supybot Invalid plugin directory: ; removing.
+WARNING 2019-03-20T15:05:18 supybot Couldn't open C:\dev\IRC\runbot\data\ChannelStats.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\ChannelStats.db'.
+WARNING 2019-03-20T15:05:18 supybot Couldn't open C:\dev\IRC\runbot\data\Later.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\Later.db'
+WARNING 2019-03-20T15:05:18 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+WARNING 2019-03-20T15:05:18 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+INFO 2019-03-20T15:05:18 supybot NuWeather: Creating new geocode DB
+INFO 2019-03-20T15:05:26 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-20T15:05:26 supybot Server sinisalo.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-20T15:05:26 supybot Got end of MOTD from sinisalo.freenode.net
+INFO 2019-03-20T15:05:27 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-20T15:05:35 supybot Join to #meowrabbit on freenode synced in 2.37 seconds.
+INFO 2019-03-20T15:06:46 supybot help called on #meowrabbit by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T15:07:53 supybot config help called on #meowrabbit by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T15:08:47 supybot config called in private by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T15:08:58 supybot setweather called on #meowrabbit by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T15:09:10 supybot weather called on #meowrabbit by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T15:12:15 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-03-20T15:12:15 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T15:12:15 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-20T15:12:15 supybot Irc object for freenode dying.
+INFO 2019-03-20T15:12:15 supybot Driver for Irc object for freenode dying.
+ERROR 2019-03-20T15:12:15 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:12:15 supybot Exception id: 0x95441
+INFO 2019-03-20T15:12:15 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-20T15:12:15 supybot Total uptime: 6 minutes and 58 seconds.
+INFO 2019-03-20T15:12:15 supybot Total CPU time taken: 1.41 seconds.
+INFO 2019-03-20T15:12:15 supybot No more Irc objects, exiting.
+INFO 2019-03-20T15:12:15 supybot Shutdown initiated.
+INFO 2019-03-20T15:12:15 supybot Killing Driver objects.
+INFO 2019-03-20T15:12:15 supybot Killing Irc objects.
+INFO 2019-03-20T15:12:15 supybot Writing registry file to happybot.conf
+INFO 2019-03-20T15:12:15 supybot Finished writing registry file.
+INFO 2019-03-20T15:12:15 supybot Shutdown complete.
+INFO 2019-03-20T15:12:34 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-20T15:12:34 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2019-03-20T15:12:35 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-20T15:12:37 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+ERROR 2019-03-20T15:12:37 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\Scripts\supybot", line 102, in main
+    drivers.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 106, in run
+    log.exception('Uncaught exception in in drivers.run:')
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 81, in exception
+    logging.Logger.exception(self, *args)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1418, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1412, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 90, in _log
+    extra=extra)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1519, in _log
+    self.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1529, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1591, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 905, in handle
+    self.emit(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 129, in emit
+    msg = self.format(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 880, in format
+    return fmt.format(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 67, in format
+    return logging.Formatter.format(self, record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 627, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 104, in run
+    driver.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 194, in run
+    self._select()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 167, in _select
+    [], [], conf.supybot.drivers.poll())
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:12:38 supybot Exception id: 0xdbf63
+INFO 2019-03-20T15:12:38 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T15:12:38 supybot Irc object for freenode dying.
+INFO 2019-03-20T15:12:38 supybot Driver for Irc object for freenode dying.
+ERROR 2019-03-20T15:12:38 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\Scripts\supybot", line 102, in main
+    drivers.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 106, in run
+    log.exception('Uncaught exception in in drivers.run:')
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 81, in exception
+    logging.Logger.exception(self, *args)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1418, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1412, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 90, in _log
+    extra=extra)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1519, in _log
+    self.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1529, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1591, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 905, in handle
+    self.emit(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 129, in emit
+    msg = self.format(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 880, in format
+    return fmt.format(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 67, in format
+    return logging.Formatter.format(self, record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 627, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 104, in run
+    driver.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 194, in run
+    self._select()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 167, in _select
+    [], [], conf.supybot.drivers.poll())
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:12:38 supybot Exception id: 0xdbf63
+INFO 2019-03-20T15:12:38 supybot Total uptime: 3 seconds.
+INFO 2019-03-20T15:12:38 supybot Total CPU time taken: 1.28 seconds.
+INFO 2019-03-20T15:12:38 supybot No more Irc objects, exiting.
+INFO 2019-03-20T15:12:38 supybot Shutdown initiated.
+INFO 2019-03-20T15:12:38 supybot Killing Driver objects.
+INFO 2019-03-20T15:12:38 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-20T15:12:38 supybot Killing Irc objects.
+INFO 2019-03-20T15:12:38 supybot Writing registry file to happybot.conf
+INFO 2019-03-20T15:12:38 supybot Finished writing registry file.
+INFO 2019-03-20T15:12:38 supybot Shutdown complete.
+INFO 2019-03-20T15:14:34 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-20T15:14:35 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-20T15:14:41 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-20T15:14:41 supybot Server sinisalo.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-20T15:14:41 supybot Got end of MOTD from sinisalo.freenode.net
+INFO 2019-03-20T15:14:42 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-20T15:14:49 supybot Join to #meowrabbit on freenode synced in 2.50 seconds.
+INFO 2019-03-20T15:21:24 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+ERROR 2019-03-20T15:21:24 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\Scripts\supybot", line 102, in main
+    drivers.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 106, in run
+    log.exception('Uncaught exception in in drivers.run:')
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 81, in exception
+    logging.Logger.exception(self, *args)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1418, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1412, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 90, in _log
+    extra=extra)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1519, in _log
+    self.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1529, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1591, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 905, in handle
+    self.emit(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 129, in emit
+    msg = self.format(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 880, in format
+    return fmt.format(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 67, in format
+    return logging.Formatter.format(self, record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 627, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 104, in run
+    driver.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 194, in run
+    self._select()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 167, in _select
+    [], [], conf.supybot.drivers.poll())
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:21:24 supybot Exception id: 0xbf9a1
+INFO 2019-03-20T15:21:24 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T15:21:24 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-20T15:21:24 supybot Irc object for freenode dying.
+INFO 2019-03-20T15:21:24 supybot Driver for Irc object for freenode dying.
+ERROR 2019-03-20T15:21:24 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:21:24 supybot Exception id: 0xbf9a1
+INFO 2019-03-20T15:21:24 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-20T15:21:24 supybot Total uptime: 6 minutes and 50 seconds.
+INFO 2019-03-20T15:21:24 supybot Total CPU time taken: 1.30 seconds.
+INFO 2019-03-20T15:21:24 supybot No more Irc objects, exiting.
+INFO 2019-03-20T15:21:24 supybot Shutdown initiated.
+INFO 2019-03-20T15:21:24 supybot Killing Driver objects.
+INFO 2019-03-20T15:21:24 supybot Killing Irc objects.
+INFO 2019-03-20T15:21:24 supybot Writing registry file to happybot.conf
+INFO 2019-03-20T15:21:24 supybot Finished writing registry file.
+INFO 2019-03-20T15:21:24 supybot Shutdown complete.
+INFO 2019-03-20T15:21:59 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-20T15:21:59 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-20T15:22:09 supybot Got 433: happybot is in use.  Trying happybot`.
+WARNING 2019-03-20T15:22:10 supybot freenode: SASL authentication failed
+WARNING 2019-03-20T15:22:11 supybot freenode: SASL authentication aborted
+INFO 2019-03-20T15:22:11 supybot Server verne.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-20T15:22:11 supybot Got end of MOTD from verne.freenode.net
+INFO 2019-03-20T15:22:12 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-20T15:22:20 supybot Join to #meowrabbit on freenode synced in 2.47 seconds.
+INFO 2019-03-20T15:23:29 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+ERROR 2019-03-20T15:23:29 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\Scripts\supybot", line 102, in main
+    drivers.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 106, in run
+    log.exception('Uncaught exception in in drivers.run:')
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 81, in exception
+    logging.Logger.exception(self, *args)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1418, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1412, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 90, in _log
+    extra=extra)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1519, in _log
+    self.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1529, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1591, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 905, in handle
+    self.emit(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 129, in emit
+    msg = self.format(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 880, in format
+    return fmt.format(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 67, in format
+    return logging.Formatter.format(self, record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 627, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 104, in run
+    driver.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 194, in run
+    self._select()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 167, in _select
+    [], [], conf.supybot.drivers.poll())
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:23:29 supybot Exception id: 0x4f9a6
+INFO 2019-03-20T15:23:29 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T15:23:29 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-20T15:23:29 supybot Irc object for freenode dying.
+INFO 2019-03-20T15:23:29 supybot Driver for Irc object for freenode dying.
+ERROR 2019-03-20T15:23:29 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:23:29 supybot Exception id: 0x4f9a6
+INFO 2019-03-20T15:23:29 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-20T15:23:29 supybot Total uptime: 1 minute and 30 seconds.
+INFO 2019-03-20T15:23:29 supybot Total CPU time taken: 1.34 seconds.
+INFO 2019-03-20T15:23:29 supybot No more Irc objects, exiting.
+INFO 2019-03-20T15:23:29 supybot Shutdown initiated.
+INFO 2019-03-20T15:23:29 supybot Killing Driver objects.
+INFO 2019-03-20T15:23:29 supybot Killing Irc objects.
+INFO 2019-03-20T15:23:29 supybot Writing registry file to happybot.conf
+INFO 2019-03-20T15:23:29 supybot Finished writing registry file.
+INFO 2019-03-20T15:23:29 supybot Shutdown complete.
+INFO 2019-03-20T15:23:47 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-20T15:23:47 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-20T15:23:55 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-20T15:23:56 supybot freenode: SASL authentication successful
+INFO 2019-03-20T15:23:57 supybot Server barjavel.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-20T15:23:57 supybot Got end of MOTD from barjavel.freenode.net
+INFO 2019-03-20T15:23:58 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-20T15:24:05 supybot Join to #meowrabbit on freenode synced in 2.30 seconds.
+INFO 2019-03-20T15:25:49 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+ERROR 2019-03-20T15:25:49 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\ssl.py", line 913, in read
+    return self._sslobj.read(len)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\Scripts\supybot", line 102, in main
+    drivers.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 106, in run
+    log.exception('Uncaught exception in in drivers.run:')
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 81, in exception
+    logging.Logger.exception(self, *args)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1418, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1412, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 90, in _log
+    extra=extra)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1519, in _log
+    self.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1529, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1591, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 905, in handle
+    self.emit(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 129, in emit
+    msg = self.format(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 880, in format
+    return fmt.format(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 67, in format
+    return logging.Formatter.format(self, record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 627, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 104, in run
+    driver.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 194, in run
+    self._select()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 170, in _select
+    instance._read()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 199, in _read
+    self.inbuffer += self.conn.recv(1024)
+  File "C:\Python\Python37-32\lib\ssl.py", line 1037, in recv
+    return self.read(buflen)
+  File "C:\Python\Python37-32\lib\ssl.py", line 913, in read
+    return self._sslobj.read(len)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:25:49 supybot Exception id: 0xbcf1e
+INFO 2019-03-20T15:25:49 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T15:25:49 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-20T15:25:49 supybot Irc object for freenode dying.
+INFO 2019-03-20T15:25:49 supybot Driver for Irc object for freenode dying.
+ERROR 2019-03-20T15:25:49 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T15:25:49 supybot Exception id: 0xbcf1e
+INFO 2019-03-20T15:25:49 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-20T15:25:49 supybot Total uptime: 2 minutes and 2 seconds.
+INFO 2019-03-20T15:25:49 supybot Total CPU time taken: 1.39 seconds.
+INFO 2019-03-20T15:25:49 supybot No more Irc objects, exiting.
+INFO 2019-03-20T15:25:49 supybot Shutdown initiated.
+INFO 2019-03-20T15:25:49 supybot Killing Driver objects.
+INFO 2019-03-20T15:25:49 supybot Killing Irc objects.
+INFO 2019-03-20T15:25:49 supybot Writing registry file to happybot.conf
+INFO 2019-03-20T15:25:49 supybot Finished writing registry file.
+INFO 2019-03-20T15:25:49 supybot Shutdown complete.
+INFO 2019-03-20T15:25:58 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-20T15:25:58 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-20T15:26:05 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-20T15:26:07 supybot freenode: SASL authentication successful
+INFO 2019-03-20T15:26:08 supybot Server cherryh.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-20T15:26:08 supybot Got end of MOTD from cherryh.freenode.net
+INFO 2019-03-20T15:26:08 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-20T15:26:16 supybot Join to #snort on freenode synced in 2.32 seconds.
+INFO 2019-03-20T15:26:34 supybot weather called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T15:27:14 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-20T15:31:37 supybot setweather called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-20T15:34:57 supybot weather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+INFO 2019-03-20T15:35:11 supybot setweather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+INFO 2019-03-20T15:35:17 supybot setweather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+INFO 2019-03-20T15:35:34 supybot weather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+INFO 2019-03-20T15:35:41 supybot setweather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+INFO 2019-03-20T15:35:45 supybot weather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+<<<<<<< .mineERROR 2019-03-20T16:25:59 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T16:25:59 supybot Exception id: 0x15b49
+INFO 2019-03-20T16:25:59 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-20T17:26:00 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T17:26:00 supybot Exception id: 0x15b49
+INFO 2019-03-20T17:26:00 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T18:14:15 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+ERROR 2019-03-20T18:26:00 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T18:26:00 supybot Exception id: 0x15b49
+INFO 2019-03-20T18:26:00 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-20T19:26:01 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T19:26:01 supybot Exception id: 0x15b49
+INFO 2019-03-20T19:26:01 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-20T20:26:02 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T20:26:02 supybot Exception id: 0x15b49
+INFO 2019-03-20T20:26:02 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-20T21:26:02 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T21:26:02 supybot Exception id: 0x15b49
+INFO 2019-03-20T21:26:02 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-20T22:26:03 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T22:26:03 supybot Exception id: 0x15b49
+INFO 2019-03-20T22:26:03 supybot Flushers flushed and garbage collected.
+INFO 2019-03-20T22:29:18 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-20T22:29:30 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+ERROR 2019-03-20T23:26:03 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-20T23:26:03 supybot Exception id: 0x15b49
+INFO 2019-03-20T23:26:03 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T00:26:04 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T00:26:04 supybot Exception id: 0x15b49
+INFO 2019-03-21T00:26:04 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T00:32:28 supybot weather called on #snort by "happymeal`!~happymeal@99.87.243.43".
+ERROR 2019-03-21T01:26:05 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T01:26:05 supybot Exception id: 0x15b49
+INFO 2019-03-21T01:26:05 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T02:26:06 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T02:26:06 supybot Exception id: 0x15b49
+INFO 2019-03-21T02:26:06 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T03:26:06 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T03:26:06 supybot Exception id: 0x15b49
+INFO 2019-03-21T03:26:06 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T04:26:07 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T04:26:07 supybot Exception id: 0x15b49
+INFO 2019-03-21T04:26:07 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T05:26:07 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T05:26:07 supybot Exception id: 0x15b49
+INFO 2019-03-21T05:26:07 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T06:26:08 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T06:26:08 supybot Exception id: 0x15b49
+INFO 2019-03-21T06:26:08 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T07:26:08 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T07:26:08 supybot Exception id: 0x15b49
+INFO 2019-03-21T07:26:08 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T08:03:14 supybot setweather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-21T08:03:20 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-21T08:03:41 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+ERROR 2019-03-21T08:26:08 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T08:26:08 supybot Exception id: 0x15b49
+INFO 2019-03-21T08:26:08 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T08:36:14 supybot setweather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-21T08:36:18 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-21T08:36:36 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-21T09:00:07 supybot help called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:00:17 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:00:45 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:01:05 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:01:18 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:01:31 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:02:04 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:02:21 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:02:29 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:02:41 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:03:28 supybot list called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:03:44 supybot version called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:03:44 supybot version called in private by "d0rm0us3!~Any@unaffiliated/anym0us3".
+ERROR 2019-03-21T09:26:09 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T09:26:09 supybot Exception id: 0x15b49
+INFO 2019-03-21T09:26:09 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T09:38:05 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T09:38:18 supybot more called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-21T10:14:13 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-21T10:14:23 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+ERROR 2019-03-21T10:26:09 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T10:26:09 supybot Exception id: 0x15b49
+INFO 2019-03-21T10:26:09 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T11:26:10 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T11:26:10 supybot Exception id: 0x15b49
+INFO 2019-03-21T11:26:10 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T12:26:11 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T12:26:11 supybot Exception id: 0x15b49
+INFO 2019-03-21T12:26:11 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T13:26:12 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T13:26:12 supybot Exception id: 0x15b49
+INFO 2019-03-21T13:26:12 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T13:53:33 supybot weather called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-21T14:07:32 supybot weather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+ERROR 2019-03-21T14:26:13 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T14:26:13 supybot Exception id: 0x15b49
+INFO 2019-03-21T14:26:13 supybot Flushers flushed and garbage collected.
+||||||| .r5=======WARNING 2019-03-21T00:45:57 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+WARNING 2019-03-21T00:45:57 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+INFO 2019-03-21T00:45:58 supybot Shutdown initiated.
+INFO 2019-03-21T00:45:58 supybot Killing Driver objects.
+INFO 2019-03-21T00:45:58 supybot Killing Irc objects.
+INFO 2019-03-21T00:45:58 supybot Shutdown complete.
+WARNING 2019-03-21T00:47:36 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+WARNING 2019-03-21T00:47:36 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+WARNING 2019-03-21T00:50:40 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+INFO 2019-03-21T00:52:50 supybot Shutdown initiated.
+INFO 2019-03-21T00:52:50 supybot Killing Driver objects.
+INFO 2019-03-21T00:52:50 supybot Killing Irc objects.
+INFO 2019-03-21T00:52:50 supybot Shutdown complete.
+INFO 2019-03-21T00:53:06 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-21T00:53:06 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2019-03-21T00:53:06 supybot Invalid plugin directory: ; removing.
+WARNING 2019-03-21T00:53:06 supybot Couldn't open C:\dev\IRC\runbot\data\ChannelStats.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\ChannelStats.db'.
+WARNING 2019-03-21T00:53:07 supybot Couldn't open C:\dev\IRC\runbot\data\Herald.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\Herald.db'.
+WARNING 2019-03-21T00:53:07 supybot Couldn't open C:\dev\IRC\runbot\data\Later.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\Later.db'
+WARNING 2019-03-21T00:53:07 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+WARNING 2019-03-21T00:53:07 supybot NuWeather: pendulum is not installed; extended forecasts will not be formatted properly
+INFO 2019-03-21T00:53:07 supybot NuWeather: Creating new geocode DB
+WARNING 2019-03-21T00:53:07 supybot Couldn't open C:\dev\IRC\runbot\data\Seen.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\Seen.db'.
+WARNING 2019-03-21T00:53:07 supybot Couldn't open C:\dev\IRC\runbot\data\Seen.any.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\Seen.any.db'.
+INFO 2019-03-21T00:53:15 supybot Server sinisalo.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-21T00:53:15 supybot Got end of MOTD from sinisalo.freenode.net
+INFO 2019-03-21T00:53:15 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-21T00:53:24 supybot Join to #meowrabbot on freenode synced in 2.36 seconds.
+INFO 2019-03-21T00:54:23 supybot version called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T00:54:23 supybot version called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T00:57:24 supybot list called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T00:57:45 supybot help called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T00:58:07 supybot list called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T00:58:25 supybot config list called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T00:59:38 supybot load called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T00:59:38 supybot Preventing happymeal`!~happymeal@99.87.243.43 from calling owner because of -owner.
+WARNING 2019-03-21T00:59:38 supybot Denying happymeal`!~happymeal@99.87.243.43 for lacking "owner" capability.
+INFO 2019-03-21T00:59:50 supybot whoami called on #meowrabbot by "happymeal`!~happymeal@99.87.243.43".
+INFO 2019-03-21T01:01:56 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-03-21T01:01:56 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T01:01:56 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-21T01:01:56 supybot Irc object for freenode dying.
+INFO 2019-03-21T01:01:56 supybot Driver for Irc object for freenode dying.
+ERROR 2019-03-21T01:01:56 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T01:01:56 supybot Exception id: 0x814c9
+INFO 2019-03-21T01:01:56 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-03-21T01:01:56 supybot Total uptime: 8 minutes and 50 seconds.
+INFO 2019-03-21T01:01:56 supybot Total CPU time taken: 1.34 seconds.
+INFO 2019-03-21T01:01:56 supybot No more Irc objects, exiting.
+INFO 2019-03-21T01:01:56 supybot Shutdown initiated.
+INFO 2019-03-21T01:01:56 supybot Killing Driver objects.
+INFO 2019-03-21T01:01:56 supybot Killing Irc objects.
+INFO 2019-03-21T01:01:56 supybot Writing registry file to testhappybot.conf
+INFO 2019-03-21T01:01:56 supybot Finished writing registry file.
+INFO 2019-03-21T01:01:56 supybot Shutdown complete.
+INFO 2019-03-21T01:02:18 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-21T01:02:18 supybot Invalid plugin directory: ; removing.
+WARNING 2019-03-21T01:02:19 supybot Couldn't open C:\dev\IRC\runbot\data\Herald.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\runbot\\data\\Herald.db'.
+INFO 2019-03-21T01:02:22 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+ERROR 2019-03-21T01:02:22 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\Scripts\supybot", line 102, in main
+    drivers.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 106, in run
+    log.exception('Uncaught exception in in drivers.run:')
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 81, in exception
+    logging.Logger.exception(self, *args)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1418, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1412, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 90, in _log
+    extra=extra)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1519, in _log
+    self.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1529, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1591, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 905, in handle
+    self.emit(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 129, in emit
+    msg = self.format(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 880, in format
+    return fmt.format(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 67, in format
+    return logging.Formatter.format(self, record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 627, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 104, in run
+    driver.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 194, in run
+    self._select()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 167, in _select
+    [], [], conf.supybot.drivers.poll())
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T01:02:22 supybot Exception id: 0x542b8
+INFO 2019-03-21T01:02:22 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T01:02:22 supybot Irc object for freenode dying.
+INFO 2019-03-21T01:02:22 supybot Driver for Irc object for freenode dying.
+ERROR 2019-03-21T01:02:22 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\Scripts\supybot", line 102, in main
+    drivers.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 106, in run
+    log.exception('Uncaught exception in in drivers.run:')
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 81, in exception
+    logging.Logger.exception(self, *args)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1418, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1412, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 90, in _log
+    extra=extra)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1519, in _log
+    self.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1529, in handle
+    self.callHandlers(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 1591, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 905, in handle
+    self.emit(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 129, in emit
+    msg = self.format(record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 880, in format
+    return fmt.format(record)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\log.py", line 67, in format
+    return logging.Formatter.format(self, record)
+  File "C:\Python\Python37-32\lib\logging\__init__.py", line 627, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\__init__.py", line 104, in run
+    driver.run()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 194, in run
+    self._select()
+  File "C:\Python\Python37-32\lib\site-packages\supybot\drivers\Socket.py", line 167, in _select
+    [], [], conf.supybot.drivers.poll())
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T01:02:22 supybot Exception id: 0x542b8
+INFO 2019-03-21T01:02:22 supybot Total uptime: 4 seconds.
+INFO 2019-03-21T01:02:22 supybot Total CPU time taken: 1.16 seconds.
+INFO 2019-03-21T01:02:22 supybot No more Irc objects, exiting.
+INFO 2019-03-21T01:02:22 supybot Shutdown initiated.
+INFO 2019-03-21T01:02:22 supybot Killing Driver objects.
+INFO 2019-03-21T01:02:22 supybot Driver for Irc object for freenode dying.
+INFO 2019-03-21T01:02:22 supybot Killing Irc objects.
+INFO 2019-03-21T01:02:22 supybot Writing registry file to testhappybot.conf
+INFO 2019-03-21T01:02:22 supybot Finished writing registry file.
+INFO 2019-03-21T01:02:22 supybot Shutdown complete.
+>>>>>>> .r7INFO 2019-03-21T15:03:10 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-21T15:03:10 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-21T15:03:16 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-21T15:03:18 supybot freenode: SASL authentication successful
+INFO 2019-03-21T15:03:19 supybot Server tolkien.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-21T15:03:19 supybot Got end of MOTD from tolkien.freenode.net
+INFO 2019-03-21T15:03:20 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-21T15:03:27 supybot Join to #snort on freenode synced in 2.35 seconds.
+INFO 2019-03-21T15:48:27 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-21T15:48:27 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-21T15:48:37 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-21T15:48:39 supybot freenode: SASL authentication successful
+INFO 2019-03-21T15:48:40 supybot Server weber.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-21T15:48:40 supybot Got end of MOTD from weber.freenode.net
+INFO 2019-03-21T15:48:40 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-21T15:48:48 supybot Join to #snort on freenode synced in 2.74 seconds.
+INFO 2019-03-21T16:11:25 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-21T16:11:26 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-21T16:11:35 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-21T16:11:37 supybot freenode: SASL authentication successful
+INFO 2019-03-21T16:11:38 supybot Server sinisalo.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-21T16:11:38 supybot Got end of MOTD from sinisalo.freenode.net
+INFO 2019-03-21T16:11:38 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-21T16:11:46 supybot Join to #snort on freenode synced in 2.80 seconds.
+INFO 2019-03-21T16:42:54 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-21T16:42:55 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-21T16:43:02 supybot Got 433: happybot is in use.  Trying happybot`.
+INFO 2019-03-21T16:43:04 supybot freenode: SASL authentication successful
+INFO 2019-03-21T16:43:04 supybot Server asimov.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-21T16:43:04 supybot Got end of MOTD from asimov.freenode.net
+INFO 2019-03-21T16:43:06 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-21T16:43:13 supybot Join to #snort on freenode synced in 3.08 seconds.
+INFO 2019-03-21T17:20:41 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-21T17:20:50 supybot setweather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-21T17:20:55 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+ERROR 2019-03-21T17:42:58 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T17:42:58 supybot Exception id: 0xc5237
+INFO 2019-03-21T17:42:58 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T18:42:59 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T18:42:59 supybot Exception id: 0xc5237
+INFO 2019-03-21T18:42:59 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T18:46:35 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+ERROR 2019-03-21T19:42:59 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T19:42:59 supybot Exception id: 0xc5237
+INFO 2019-03-21T19:42:59 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T20:43:00 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T20:43:00 supybot Exception id: 0xc5237
+INFO 2019-03-21T20:43:00 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-21T21:43:01 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T21:43:01 supybot Exception id: 0xc5237
+INFO 2019-03-21T21:43:01 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T21:46:08 supybot weather called on #snort by "happymeal`!~happymeal@99.87.243.43".
+ERROR 2019-03-21T22:43:01 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T22:43:01 supybot Exception id: 0xc5237
+INFO 2019-03-21T22:43:01 supybot Flushers flushed and garbage collected.
+INFO 2019-03-21T23:04:19 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-21T23:04:45 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-21T23:04:56 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+ERROR 2019-03-21T23:43:02 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-21T23:43:02 supybot Exception id: 0xc5237
+INFO 2019-03-21T23:43:02 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T00:43:03 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T00:43:03 supybot Exception id: 0xc5237
+INFO 2019-03-22T00:43:03 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T01:43:04 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T01:43:04 supybot Exception id: 0xc5237
+INFO 2019-03-22T01:43:04 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T02:43:05 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T02:43:05 supybot Exception id: 0xc5237
+INFO 2019-03-22T02:43:05 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T03:43:05 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T03:43:05 supybot Exception id: 0xc5237
+INFO 2019-03-22T03:43:05 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T04:43:06 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T04:43:06 supybot Exception id: 0xc5237
+INFO 2019-03-22T04:43:06 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T05:43:07 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T05:43:07 supybot Exception id: 0xc5237
+INFO 2019-03-22T05:43:07 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T06:43:08 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T06:43:08 supybot Exception id: 0xc5237
+INFO 2019-03-22T06:43:08 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T07:43:09 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T07:43:09 supybot Exception id: 0xc5237
+INFO 2019-03-22T07:43:09 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T08:43:10 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T08:43:10 supybot Exception id: 0xc5237
+INFO 2019-03-22T08:43:10 supybot Flushers flushed and garbage collected.
+INFO 2019-03-22T08:44:47 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-22T08:44:57 supybot setweather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-22T08:45:08 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-22T08:45:13 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-22T09:20:13 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T09:20:22 supybot more called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T09:20:36 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T09:20:51 supybot more called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T09:23:25 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-22T09:23:36 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+ERROR 2019-03-22T09:43:10 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T09:43:10 supybot Exception id: 0xc5237
+INFO 2019-03-22T09:43:10 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T10:43:11 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T10:43:11 supybot Exception id: 0xc5237
+INFO 2019-03-22T10:43:11 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T11:43:12 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T11:43:12 supybot Exception id: 0xc5237
+INFO 2019-03-22T11:43:12 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T12:43:12 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T12:43:12 supybot Exception id: 0xc5237
+INFO 2019-03-22T12:43:12 supybot Flushers flushed and garbage collected.
+INFO 2019-03-22T12:47:42 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T12:47:52 supybot more called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T12:48:29 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T12:48:37 supybot more called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T12:48:50 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T12:48:56 supybot more called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-22T12:54:35 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-22T12:54:39 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-22T13:18:11 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-22T13:43:12 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+ERROR 2019-03-22T13:43:13 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T13:43:13 supybot Exception id: 0xc5237
+INFO 2019-03-22T13:43:14 supybot Flushers flushed and garbage collected.
+INFO 2019-03-22T13:43:24 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+ERROR 2019-03-22T14:43:14 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T14:43:14 supybot Exception id: 0xc5237
+INFO 2019-03-22T14:43:14 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T15:43:14 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T15:43:14 supybot Exception id: 0xc5237
+INFO 2019-03-22T15:43:14 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T16:43:15 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T16:43:15 supybot Exception id: 0xc5237
+INFO 2019-03-22T16:43:15 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T17:43:16 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T17:43:16 supybot Exception id: 0xc5237
+INFO 2019-03-22T17:43:16 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T18:43:17 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T18:43:17 supybot Exception id: 0xc5237
+INFO 2019-03-22T18:43:17 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T19:43:18 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T19:43:18 supybot Exception id: 0xc5237
+INFO 2019-03-22T19:43:18 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T20:43:18 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T20:43:18 supybot Exception id: 0xc5237
+INFO 2019-03-22T20:43:18 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T21:43:19 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T21:43:19 supybot Exception id: 0xc5237
+INFO 2019-03-22T21:43:19 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T22:43:19 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T22:43:19 supybot Exception id: 0xc5237
+INFO 2019-03-22T22:43:19 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-22T23:43:20 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-22T23:43:20 supybot Exception id: 0xc5237
+INFO 2019-03-22T23:43:20 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T00:43:20 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T00:43:20 supybot Exception id: 0xc5237
+INFO 2019-03-23T00:43:20 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T01:43:21 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T01:43:21 supybot Exception id: 0xc5237
+INFO 2019-03-23T01:43:21 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T02:43:22 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T02:43:22 supybot Exception id: 0xc5237
+INFO 2019-03-23T02:43:22 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T03:43:23 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T03:43:23 supybot Exception id: 0xc5237
+INFO 2019-03-23T03:43:24 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T04:43:24 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T04:43:24 supybot Exception id: 0xc5237
+INFO 2019-03-23T04:43:24 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T05:43:25 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T05:43:25 supybot Exception id: 0xc5237
+INFO 2019-03-23T05:43:25 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T06:43:26 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T06:43:26 supybot Exception id: 0xc5237
+INFO 2019-03-23T06:43:26 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T07:43:27 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T07:43:27 supybot Exception id: 0xc5237
+INFO 2019-03-23T07:43:27 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T08:43:28 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T08:43:28 supybot Exception id: 0xc5237
+INFO 2019-03-23T08:43:28 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T09:43:29 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T09:43:29 supybot Exception id: 0xc5237
+INFO 2019-03-23T09:43:29 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T10:43:29 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T10:43:29 supybot Exception id: 0xc5237
+INFO 2019-03-23T10:43:29 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T11:43:30 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T11:43:30 supybot Exception id: 0xc5237
+INFO 2019-03-23T11:43:30 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T12:43:31 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T12:43:31 supybot Exception id: 0xc5237
+INFO 2019-03-23T12:43:31 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T13:43:32 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T13:43:32 supybot Exception id: 0xc5237
+INFO 2019-03-23T13:43:32 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T14:43:32 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T14:43:32 supybot Exception id: 0xc5237
+INFO 2019-03-23T14:43:32 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T15:43:33 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T15:43:33 supybot Exception id: 0xc5237
+INFO 2019-03-23T15:43:33 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T16:43:35 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T16:43:35 supybot Exception id: 0xc5237
+INFO 2019-03-23T16:43:35 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T17:43:35 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T17:43:35 supybot Exception id: 0xc5237
+INFO 2019-03-23T17:43:35 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T18:43:36 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T18:43:36 supybot Exception id: 0xc5237
+INFO 2019-03-23T18:43:36 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T19:43:36 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T19:43:36 supybot Exception id: 0xc5237
+INFO 2019-03-23T19:43:36 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T20:43:37 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T20:43:37 supybot Exception id: 0xc5237
+INFO 2019-03-23T20:43:37 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T21:43:38 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T21:43:38 supybot Exception id: 0xc5237
+INFO 2019-03-23T21:43:38 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T22:43:39 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T22:43:39 supybot Exception id: 0xc5237
+INFO 2019-03-23T22:43:39 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-23T23:43:39 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-23T23:43:39 supybot Exception id: 0xc5237
+INFO 2019-03-23T23:43:39 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T00:43:40 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T00:43:40 supybot Exception id: 0xc5237
+INFO 2019-03-24T00:43:40 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T01:43:41 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T01:43:41 supybot Exception id: 0xc5237
+INFO 2019-03-24T01:43:41 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T02:43:42 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T02:43:42 supybot Exception id: 0xc5237
+INFO 2019-03-24T02:43:42 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T03:43:43 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T03:43:43 supybot Exception id: 0xc5237
+INFO 2019-03-24T03:43:43 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T04:43:44 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T04:43:44 supybot Exception id: 0xc5237
+INFO 2019-03-24T04:43:44 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T05:43:45 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T05:43:45 supybot Exception id: 0xc5237
+INFO 2019-03-24T05:43:45 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T06:43:45 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T06:43:45 supybot Exception id: 0xc5237
+INFO 2019-03-24T06:43:45 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T07:43:46 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T07:43:46 supybot Exception id: 0xc5237
+INFO 2019-03-24T07:43:46 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T08:43:47 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T08:43:47 supybot Exception id: 0xc5237
+INFO 2019-03-24T08:43:47 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T09:43:47 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T09:43:47 supybot Exception id: 0xc5237
+INFO 2019-03-24T09:43:47 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T10:43:48 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T10:43:48 supybot Exception id: 0xc5237
+INFO 2019-03-24T10:43:48 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T11:43:48 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T11:43:48 supybot Exception id: 0xc5237
+INFO 2019-03-24T11:43:48 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T12:43:49 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T12:43:49 supybot Exception id: 0xc5237
+INFO 2019-03-24T12:43:49 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T13:43:50 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T13:43:50 supybot Exception id: 0xc5237
+INFO 2019-03-24T13:43:50 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T14:43:51 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T14:43:51 supybot Exception id: 0xc5237
+INFO 2019-03-24T14:43:51 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T15:43:52 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T15:43:52 supybot Exception id: 0xc5237
+INFO 2019-03-24T15:43:52 supybot Flushers flushed and garbage collected.
+INFO 2019-03-24T16:37:09 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-24T16:40:45 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-24T16:40:53 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-24T16:41:35 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+INFO 2019-03-24T16:42:22 supybot more called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+ERROR 2019-03-24T16:43:52 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T16:43:52 supybot Exception id: 0xc5237
+INFO 2019-03-24T16:43:52 supybot Flushers flushed and garbage collected.
+INFO 2019-03-24T16:55:52 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+ERROR 2019-03-24T17:43:52 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T17:43:52 supybot Exception id: 0xc5237
+INFO 2019-03-24T17:43:52 supybot Flushers flushed and garbage collected.
+INFO 2019-03-24T18:11:26 supybot weather called on #snort by "happymeal`!~happymeal@185.94.28.238".
+ERROR 2019-03-24T18:43:53 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T18:43:53 supybot Exception id: 0xc5237
+INFO 2019-03-24T18:43:53 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T19:43:54 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T19:43:54 supybot Exception id: 0xc5237
+INFO 2019-03-24T19:43:54 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T20:43:54 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T20:43:54 supybot Exception id: 0xc5237
+INFO 2019-03-24T20:43:54 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T21:43:54 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T21:43:54 supybot Exception id: 0xc5237
+INFO 2019-03-24T21:43:54 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T22:43:55 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T22:43:55 supybot Exception id: 0xc5237
+INFO 2019-03-24T22:43:55 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-24T23:43:55 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-24T23:43:55 supybot Exception id: 0xc5237
+INFO 2019-03-24T23:43:55 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T00:43:56 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T00:43:56 supybot Exception id: 0xc5237
+INFO 2019-03-25T00:43:56 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T01:43:57 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T01:43:57 supybot Exception id: 0xc5237
+INFO 2019-03-25T01:43:57 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T02:43:57 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T02:43:57 supybot Exception id: 0xc5237
+INFO 2019-03-25T02:43:57 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T03:43:58 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T03:43:58 supybot Exception id: 0xc5237
+INFO 2019-03-25T03:43:58 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T04:43:59 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T04:43:59 supybot Exception id: 0xc5237
+INFO 2019-03-25T04:43:59 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T05:44:00 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T05:44:00 supybot Exception id: 0xc5237
+INFO 2019-03-25T05:44:00 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T06:44:01 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T06:44:01 supybot Exception id: 0xc5237
+INFO 2019-03-25T06:44:01 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T07:44:02 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T07:44:02 supybot Exception id: 0xc5237
+INFO 2019-03-25T07:44:02 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T08:44:03 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T08:44:03 supybot Exception id: 0xc5237
+INFO 2019-03-25T08:44:03 supybot Flushers flushed and garbage collected.
+INFO 2019-03-25T09:05:34 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-25T09:05:39 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-25T09:07:47 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-25T09:07:59 supybot setweather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-25T09:08:03 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+INFO 2019-03-25T09:08:48 supybot weather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+INFO 2019-03-25T09:09:05 supybot setweather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+INFO 2019-03-25T09:09:12 supybot weather called on #snort by "LeandroLuiz!~clkalw@unaffiliated/leandroluiz".
+ERROR 2019-03-25T09:44:04 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T09:44:04 supybot Exception id: 0xc5237
+INFO 2019-03-25T09:44:04 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T10:44:04 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T10:44:04 supybot Exception id: 0xc5237
+INFO 2019-03-25T10:44:04 supybot Flushers flushed and garbage collected.
+INFO 2019-03-25T11:35:24 supybot weather called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+ERROR 2019-03-25T11:44:05 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T11:44:05 supybot Exception id: 0xc5237
+INFO 2019-03-25T11:44:05 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T12:44:06 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T12:44:06 supybot Exception id: 0xc5237
+INFO 2019-03-25T12:44:06 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T13:44:07 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T13:44:07 supybot Exception id: 0xc5237
+INFO 2019-03-25T13:44:07 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T14:44:07 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T14:44:07 supybot Exception id: 0xc5237
+INFO 2019-03-25T14:44:07 supybot Flushers flushed and garbage collected.
+INFO 2019-03-25T15:17:25 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-25T15:17:30 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+ERROR 2019-03-25T15:44:08 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T15:44:08 supybot Exception id: 0xc5237
+INFO 2019-03-25T15:44:08 supybot Flushers flushed and garbage collected.
+INFO 2019-03-25T15:48:54 supybot weather called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+ERROR 2019-03-25T16:44:09 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T16:44:09 supybot Exception id: 0xc5237
+INFO 2019-03-25T16:44:09 supybot Flushers flushed and garbage collected.
+INFO 2019-03-25T17:06:30 supybot more called on #snort by "d0rm0us3!~Any@unaffiliated/anym0us3".
+ERROR 2019-03-25T17:44:10 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T17:44:10 supybot Exception id: 0xc5237
+INFO 2019-03-25T17:44:10 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T18:44:10 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T18:44:10 supybot Exception id: 0xc5237
+INFO 2019-03-25T18:44:10 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T19:44:11 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T19:44:11 supybot Exception id: 0xc5237
+INFO 2019-03-25T19:44:11 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T20:44:12 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T20:44:12 supybot Exception id: 0xc5237
+INFO 2019-03-25T20:44:12 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T21:44:12 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T21:44:12 supybot Exception id: 0xc5237
+INFO 2019-03-25T21:44:12 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T22:44:13 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T22:44:13 supybot Exception id: 0xc5237
+INFO 2019-03-25T22:44:13 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-25T23:44:13 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-25T23:44:13 supybot Exception id: 0xc5237
+INFO 2019-03-25T23:44:13 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T00:44:14 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T00:44:14 supybot Exception id: 0xc5237
+INFO 2019-03-26T00:44:14 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T01:44:15 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T01:44:15 supybot Exception id: 0xc5237
+INFO 2019-03-26T01:44:15 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T02:44:15 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T02:44:15 supybot Exception id: 0xc5237
+INFO 2019-03-26T02:44:15 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T03:44:16 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T03:44:16 supybot Exception id: 0xc5237
+INFO 2019-03-26T03:44:16 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T04:44:17 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T04:44:17 supybot Exception id: 0xc5237
+INFO 2019-03-26T04:44:17 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T05:44:18 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T05:44:18 supybot Exception id: 0xc5237
+INFO 2019-03-26T05:44:18 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T06:44:19 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T06:44:19 supybot Exception id: 0xc5237
+INFO 2019-03-26T06:44:19 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T07:44:19 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T07:44:19 supybot Exception id: 0xc5237
+INFO 2019-03-26T07:44:19 supybot Flushers flushed and garbage collected.
+INFO 2019-03-26T08:15:19 supybot weather called on #snort by "dogbert2!~Bill@ip98-160-179-12.lv.lv.cox.net".
+ERROR 2019-03-26T08:44:19 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T08:44:19 supybot Exception id: 0xc5237
+INFO 2019-03-26T08:44:19 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T09:44:20 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T09:44:20 supybot Exception id: 0xc5237
+INFO 2019-03-26T09:44:20 supybot Flushers flushed and garbage collected.
+ERROR 2019-03-26T10:44:20 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T10:44:20 supybot Exception id: 0xc5237
+INFO 2019-03-26T10:44:20 supybot Flushers flushed and garbage collected.
+INFO 2019-03-26T11:14:49 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-26T11:14:55 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-26T11:15:01 supybot more called on #snort by "suds!~suds@unaffiliated/suds".
+ERROR 2019-03-26T11:44:21 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T11:44:21 supybot Exception id: 0xc5237
+INFO 2019-03-26T11:44:21 supybot Flushers flushed and garbage collected.
+INFO 2019-03-26T11:49:31 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-26T11:49:37 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+ERROR 2019-03-26T12:44:21 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T12:44:21 supybot Exception id: 0xc5237
+INFO 2019-03-26T12:44:21 supybot Flushers flushed and garbage collected.
+INFO 2019-03-26T12:48:52 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+ERROR 2019-03-26T13:44:22 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T13:44:22 supybot Exception id: 0xc5237
+INFO 2019-03-26T13:44:22 supybot Flushers flushed and garbage collected.
+INFO 2019-03-26T14:18:05 supybot more called on #snort by "suds!~suds@unaffiliated/suds".
+ERROR 2019-03-26T14:44:23 supybot NuWeather: Unable to write database: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+Traceback (most recent call last):
+  File "C:\Python\Python37-32\lib\site-packages\supybot\plugins\NuWeather\local\accountsdb.py", line 93, in flush
+    os.rename(tmp_filename, self.filename)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db.tmp' -> 'C:\\dev\\IRC\\runbot\\data\\NuWeather.db'
+ERROR 2019-03-26T14:44:23 supybot Exception id: 0xc5237
+INFO 2019-03-26T14:44:23 supybot Flushers flushed and garbage collected.
+INFO 2019-03-26T14:57:33 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-03-26T14:57:33 supybot Invalid plugin directory: ; removing.
+INFO 2019-03-26T14:57:42 supybot freenode: SASL authentication successful
+INFO 2019-03-26T14:57:43 supybot Server tepper.freenode.net has version ircd-seven-1.1.7
+INFO 2019-03-26T14:57:43 supybot Got end of MOTD from tepper.freenode.net
+INFO 2019-03-26T14:57:44 supybot Received CTCP VERSION from freenode-connect!frigg@freenode/utility-bot/frigg
+INFO 2019-03-26T14:57:51 supybot Join to #snort on freenode synced in 2.39 seconds.
+INFO 2019-03-26T14:57:54 supybot weather called on #snort by "suds!~suds@unaffiliated/suds".
+INFO 2019-03-26T14:58:10 supybot weather called on #snort by "happymeal!~happymeal@75-28-166-198.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-03-26T14:58:31 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-26T14:58:46 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-26T14:58:59 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-03-26T14:59:08 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
