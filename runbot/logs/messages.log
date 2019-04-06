@@ -1873,3 +1873,117 @@ INFO 2019-03-26T14:58:31 supybot weather called on #snort by "gnowicki!~gnowicki
 INFO 2019-03-26T14:58:46 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
 INFO 2019-03-26T14:58:59 supybot weather called on #snort by "gnowicki!~gnowicki@129.57.55.10".
 INFO 2019-03-26T14:59:08 supybot more called on #snort by "gnowicki!~gnowicki@129.57.55.10".
+INFO 2019-04-06T00:51:53 supybot Creating directory C:\dev\IRC\happybot\runbot\data\GPGkeyring
+INFO 2019-04-06T00:56:09 supybot Shutdown initiated.
+INFO 2019-04-06T00:56:09 supybot Killing Driver objects.
+INFO 2019-04-06T00:56:09 supybot Killing Irc objects.
+INFO 2019-04-06T00:56:09 supybot Shutdown complete.
+INFO 2019-04-06T00:56:31 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-04-06T00:56:31 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+WARNING 2019-04-06T00:56:32 supybot Couldn't open C:\dev\IRC\happybot\runbot\data\Seen.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\happybot\\runbot\\data\\Seen.db'.
+WARNING 2019-04-06T00:56:32 supybot Couldn't open C:\dev\IRC\happybot\runbot\data\Seen.any.db: [Errno 2] No such file or directory: 'C:\\dev\\IRC\\happybot\\runbot\\data\\Seen.any.db'.
+INFO 2019-04-06T00:56:40 supybot Server wilhelm.freenode.net has version ircd-seven-1.1.7
+INFO 2019-04-06T00:56:40 supybot Got end of MOTD from wilhelm.freenode.net
+INFO 2019-04-06T00:56:49 supybot Join to #meowrabbot on freenode synced in 2.34 seconds.
+INFO 2019-04-06T00:58:42 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T00:59:20 supybot google called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T00:59:54 supybot google called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:00:03 supybot channelstats called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:00:10 supybot lart called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:00:18 supybot lart called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:02:53 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:03:34 supybot plugindownloader repolist called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:04:05 supybot plugindownloader install called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+WARNING 2019-04-06T01:04:05 supybot Denying happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net for lacking "owner" capability.
+INFO 2019-04-06T01:04:14 supybot whoami called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:04:55 supybot identify called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:05:05 supybot identify called in private by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+WARNING 2019-04-06T01:05:05 supybot Failed identification attempt by happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net (password did not match for happymeal).
+INFO 2019-04-06T01:06:04 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-04-06T01:06:04 supybot Flushers flushed and garbage collected.
+INFO 2019-04-06T01:06:04 supybot Driver for Irc object for freenode dying.
+INFO 2019-04-06T01:06:04 supybot Irc object for freenode dying.
+INFO 2019-04-06T01:06:04 supybot Driver for Irc object for freenode dying.
+INFO 2019-04-06T01:06:04 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-04-06T01:06:04 supybot Total uptime: 9 minutes and 34 seconds.
+INFO 2019-04-06T01:06:04 supybot Total CPU time taken: 1.55 seconds.
+INFO 2019-04-06T01:06:04 supybot No more Irc objects, exiting.
+INFO 2019-04-06T01:06:04 supybot Shutdown initiated.
+INFO 2019-04-06T01:06:04 supybot Killing Driver objects.
+INFO 2019-04-06T01:06:04 supybot Killing Irc objects.
+INFO 2019-04-06T01:06:04 supybot Writing registry file to .\happybot.conf
+INFO 2019-04-06T01:06:04 supybot Finished writing registry file.
+INFO 2019-04-06T01:06:05 supybot Shutdown complete.
+ERROR 2019-04-06T01:11:48 supybot Invalid channel database, resetting to empty.
+ERROR 2019-04-06T01:11:48 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: '/channels.conf'
+WARNING 2019-04-06T01:11:48 supybot Couldn't open ignore database: [Errno 2] No such file or directory: '/ignores.conf'
+INFO 2019-04-06T01:12:12 supybot Shutdown initiated.
+INFO 2019-04-06T01:12:12 supybot Killing Driver objects.
+INFO 2019-04-06T01:12:12 supybot Killing Irc objects.
+INFO 2019-04-06T01:12:12 supybot Shutdown complete.
+INFO 2019-04-06T01:12:19 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-04-06T01:12:20 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2019-04-06T01:12:29 supybot Server rajaniemi.freenode.net has version ircd-seven-1.1.7
+INFO 2019-04-06T01:12:29 supybot Got end of MOTD from rajaniemi.freenode.net
+INFO 2019-04-06T01:12:34 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-04-06T01:12:35 supybot Flushers flushed and garbage collected.
+INFO 2019-04-06T01:12:35 supybot Driver for Irc object for freenode dying.
+INFO 2019-04-06T01:12:35 supybot Irc object for freenode dying.
+INFO 2019-04-06T01:12:35 supybot Driver for Irc object for freenode dying.
+INFO 2019-04-06T01:12:35 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2019-04-06T01:12:35 supybot Total uptime: 15 seconds.
+INFO 2019-04-06T01:12:35 supybot Total CPU time taken: 1.36 seconds.
+INFO 2019-04-06T01:12:35 supybot No more Irc objects, exiting.
+INFO 2019-04-06T01:12:35 supybot Shutdown initiated.
+INFO 2019-04-06T01:12:35 supybot Killing Driver objects.
+INFO 2019-04-06T01:12:35 supybot Killing Irc objects.
+INFO 2019-04-06T01:12:35 supybot Writing registry file to .\happybot.conf
+INFO 2019-04-06T01:12:35 supybot Finished writing registry file.
+INFO 2019-04-06T01:12:35 supybot Shutdown complete.
+INFO 2019-04-06T01:12:37 supybot Connecting to chat.freenode.net:6697.
+WARNING 2019-04-06T01:12:37 supybot Not checking SSL certificates, connections are vulnerable to man-in-the-middle attacks. Set supybot.protocols.ssl.verifyCertificates to "true" to enable validity checks.
+INFO 2019-04-06T01:12:44 supybot Server rajaniemi.freenode.net has version ircd-seven-1.1.7
+INFO 2019-04-06T01:12:44 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2019-04-06T01:12:44 supybot Flushers flushed and garbage collected.
+INFO 2019-04-06T01:12:45 supybot Irc object for freenode dying.
+INFO 2019-04-06T01:12:45 supybot Driver for Irc object for freenode dying.
+INFO 2019-04-06T01:12:45 supybot Total uptime: 8 seconds.
+INFO 2019-04-06T01:12:45 supybot Total CPU time taken: 1.34 seconds.
+INFO 2019-04-06T01:12:45 supybot No more Irc objects, exiting.
+INFO 2019-04-06T01:12:45 supybot Shutdown initiated.
+INFO 2019-04-06T01:12:45 supybot Killing Driver objects.
+INFO 2019-04-06T01:12:45 supybot Driver for Irc object for freenode dying.
+INFO 2019-04-06T01:12:45 supybot Killing Irc objects.
+INFO 2019-04-06T01:12:45 supybot Writing registry file to .\happybot.conf
+INFO 2019-04-06T01:12:45 supybot Finished writing registry file.
+INFO 2019-04-06T01:12:45 supybot Shutdown complete.
+INFO 2019-04-06T01:13:18 supybot Connecting to chat.freenode.net:6697.
+INFO 2019-04-06T01:13:24 supybot Server rajaniemi.freenode.net has version ircd-seven-1.1.7
+INFO 2019-04-06T01:13:24 supybot Got end of MOTD from rajaniemi.freenode.net
+INFO 2019-04-06T01:13:32 supybot Join to #meowrabbot on freenode synced in 2.42 seconds.
+INFO 2019-04-06T01:15:20 supybot identify called in private by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:15:28 supybot plugindownloader install called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:15:38 supybot plugindownloader repolist called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:16:03 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:16:25 supybot plugindownloader info called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:16:34 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:16:43 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:16:55 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:17:20 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:17:40 supybot admin acmd called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:17:55 supybot admin channels called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:18:07 supybot admin nick called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:18:23 supybot admin capability add called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:18:32 supybot admin capability add called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:18:43 supybot admin capability add called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:19:02 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:19:14 supybot success called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:19:24 supybot success called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:19:30 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:19:37 supybot success stats called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:20:45 supybot list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:20:53 supybot messageparser list called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:21:02 supybot messageparser show called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:21:37 supybot load called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:23:53 supybot unload called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".
+INFO 2019-04-06T01:23:58 supybot unload called on #meowrabbot by "happymeal|laptop!~happymeal@99-87-243-43.lightspeed.tukrga.sbcglobal.net".

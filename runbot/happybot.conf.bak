@@ -84,32 +84,6 @@ supybot.abuse.flood.command.notify: True
 supybot.abuse.flood.command.punishment: 300
 
 ###
-# Determines whether the bot will defend itself against CTCP flooding.
-#
-# Default value: True
-###
-supybot.abuse.flood.ctcp: True
-
-###
-# Determines how many CTCP messages (not including actions) the bot will
-# reply to from a given user in a minute. If a user sends more than this
-# many CTCP messages in a 60 second period, the bot will ignore CTCP
-# messages from this user for supybot.abuse.flood.ctcp.punishment
-# seconds.
-#
-# Default value: 5
-###
-supybot.abuse.flood.ctcp.maximum: 5
-
-###
-# Determines how many seconds the bot will ignore CTCP messages from
-# users who flood it with CTCP messages.
-#
-# Default value: 300
-###
-supybot.abuse.flood.ctcp.punishment: 300
-
-###
 # Determines the interval used for the history storage.
 #
 # Default value: 60
@@ -135,9 +109,9 @@ supybot.alwaysJoinOnInvite: False
 # docs/CAPABILITIES if you don't understand why these default to what
 # they do.
 #
-# Default value: -admin -owner -trusted
+# Default value: -trusted -admin -owner
 ###
-supybot.capabilities: -trusted -owner -admin
+supybot.capabilities: -trusted -admin -owner
 
 ###
 # Determines whether the bot by default will allow users to have a
@@ -195,9 +169,9 @@ supybot.commands.defaultPlugins.ignore: Admin
 # change this if you don't know what you're doing; if you do know what
 # you're doing, then also know that this set is case-sensitive.
 #
-# Default value: User Admin Misc Channel Owner Config
+# Default value: User Owner Misc Admin Config Channel
 ###
-supybot.commands.defaultPlugins.importantPlugins: User Admin Misc Channel Owner Config
+supybot.commands.defaultPlugins.importantPlugins: User Owner Misc Admin Config Channel
 supybot.commands.defaultPlugins.list: Misc
 supybot.commands.defaultPlugins.reload: Owner
 supybot.commands.defaultPlugins.removecapability: Admin
@@ -416,28 +390,28 @@ supybot.defaultSocketTimeout: 10
 #
 # Default value: backup
 ###
-supybot.directories.backup: C:\\dev\\IRC\\runbot\\backup
+supybot.directories.backup: C:\\dev\\IRC\\happybot\\runbot\\backup
 
 ###
 # Determines what directory configuration data is put into.
 #
 # Default value: conf
 ###
-supybot.directories.conf: C:\\dev\\IRC\\runbot\\conf
+supybot.directories.conf: C:\\dev\\IRC\\happybot\\runbot\\conf
 
 ###
 # Determines what directory data is put into.
 #
 # Default value: data
 ###
-supybot.directories.data: C:\\dev\\IRC\\runbot\\data
+supybot.directories.data: C:\\dev\\IRC\\happybot\\runbot\\data
 
 ###
 # Determines what directory temporary files are put into.
 #
 # Default value: tmp
 ###
-supybot.directories.data.tmp: C:\\dev\\IRC\\runbot\\data\\tmp
+supybot.directories.data.tmp: C:\\dev\\IRC\\happybot\\runbot\\data\\tmp
 
 ###
 # Determines what directory files of the web server (templates, custom
@@ -445,14 +419,14 @@ supybot.directories.data.tmp: C:\\dev\\IRC\\runbot\\data\\tmp
 #
 # Default value: web
 ###
-supybot.directories.data.web: C:\\dev\\IRC\\runbot\\data\\web
+supybot.directories.data.web: C:\\dev\\IRC\\happybot\\runbot\\data\\web
 
 ###
 # Determines what directory the bot will store its logfiles in.
 #
 # Default value: logs
 ###
-supybot.directories.log: C:\\dev\\IRC\\runbot\\logs
+supybot.directories.log: C:\\dev\\IRC\\happybot\\runbot\\logs
 
 ###
 # Determines what directories the bot will look for plugins in. Accepts
@@ -463,7 +437,7 @@ supybot.directories.log: C:\\dev\\IRC\\runbot\\logs
 #
 # Default value:  
 ###
-supybot.directories.plugins:  
+supybot.directories.plugins: C:\\dev\\IRC\\happybot\\runbot\\plugins_local
 
 ###
 # Determines the maximum time the bot will wait before attempting to
@@ -532,7 +506,7 @@ supybot.followIdentificationThroughNickChanges: False
 #
 # Default value: limnoria
 ###
-supybot.ident: happybot
+supybot.ident: happymeal_bot
 
 ###
 # Determines the bot's default language if translations exist. Currently
@@ -650,7 +624,7 @@ supybot.networks.freenode.certfile:
 #
 # Default value:  
 ###
-supybot.networks.freenode.channels: #snort
+supybot.networks.freenode.channels: #meowrabbot
 
 ###
 # Determines what key (if any) will be used to join the channel.
@@ -673,7 +647,7 @@ supybot.networks.freenode.ident:
 #
 # Default value: 
 ###
-supybot.networks.freenode.nick: happybot
+supybot.networks.freenode.nick: 
 
 ###
 # Determines what password will be used on freenode. Yes, we know that
@@ -712,7 +686,7 @@ supybot.networks.freenode.sasl.mechanisms: ecdsa-nist256p-challenge external pla
 #
 # Default value: 
 ###
-supybot.networks.freenode.sasl.password: u20cp5r8
+supybot.networks.freenode.sasl.password: 
 
 ###
 # Determines whether the bot will abort the connection if the none of
@@ -729,7 +703,7 @@ supybot.networks.freenode.sasl.required: False
 #
 # Default value: 
 ###
-supybot.networks.freenode.sasl.username: happybot|2
+supybot.networks.freenode.sasl.username: 
 
 ###
 # Space-separated list of servers the bot will connect to for freenode.
@@ -823,7 +797,7 @@ supybot.pidFile:
 #
 # Default value:  
 ###
-supybot.plugins: User Admin NuWeather AutoMode MoobotFactoids Utilities Later Owner Channel String NickAuth Ctcp Factoids Google News ChannelStats Network Aka Plugin Misc ShrinkUrl Config PluginDownloader
+supybot.plugins: Services Success User Google PluginDownloader Praise Seen AutoMode Internet NickAuth Config Utilities Network Owner Scheduler Misc Lart ChannelStats Channel Aka MessageParser Plugin Admin News
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -1040,7 +1014,7 @@ supybot.plugins.ChannelStats.selfStats: True
 #
 # Default value: :) ;) ;] :-) :-D :D :P :p (= =)
 ###
-supybot.plugins.ChannelStats.smileys: :) ;) ;] :-) :-D :D :P :p (= =) :D D: =D D= :o :O
+supybot.plugins.ChannelStats.smileys: :) ;) ;] :-) :-D :D :P :p (= =)
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -1053,131 +1027,6 @@ supybot.plugins.Config: True
 # Default value: True
 ###
 supybot.plugins.Config.public: True
-
-###
-# Determines whether this plugin is loaded by default.
-###
-supybot.plugins.Ctcp: True
-
-###
-# Determines whether this plugin is publicly visible.
-#
-# Default value: True
-###
-supybot.plugins.Ctcp.public: True
-
-###
-# Determines what will be sent when a USERINFO query is received.
-#
-# Default value: 
-###
-supybot.plugins.Ctcp.userinfo: 
-
-###
-# Determines how many seconds the bot will wait after getting a version
-# command (not a CTCP VERSION, but an actual call of the command in this
-# plugin named "version") before replying with the results it has
-# collected.
-#
-# Default value: 10
-###
-supybot.plugins.Ctcp.versionWait: 10
-
-###
-# Determines whether this plugin is loaded by default.
-###
-supybot.plugins.Factoids: True
-
-###
-# Determines the format of the response given when a factoid's value is
-# requested. All the standard substitutes apply, in addition to "$key"
-# for the factoid's key and "$value" for the factoid's value.
-#
-# Default value: $value
-###
-supybot.plugins.Factoids.format: $value
-
-###
-# Determines whether we keep updating the usage count for each factoid,
-# for popularity ranking.
-#
-# Default value: True
-###
-supybot.plugins.Factoids.keepRankInfo: True
-
-###
-# Determines what separator must be used in the learn command. Defaults
-# to 'is' -- learn <key> is <value>. Users might want to change this to
-# something else, so it's configurable.
-#
-# Default value: is
-###
-supybot.plugins.Factoids.learnSeparator: is
-
-###
-# Determines whether this plugin is publicly visible.
-#
-# Default value: True
-###
-supybot.plugins.Factoids.public: True
-
-###
-# Determines the number of factoid keys returned by the factrank
-# command.
-#
-# Default value: 20
-###
-supybot.plugins.Factoids.rankListLength: 20
-
-###
-# If you try to look up a nonexistent factoid, this setting make the bot
-# try to find some possible matching keys through several approximate
-# matching algorithms and return a list of matching keys, before giving
-# up.
-#
-# Default value: True
-###
-supybot.plugins.Factoids.replyApproximateSearchKeys: True
-
-###
-# Determines whether the bot will reply to invalid commands by searching
-# for a factoid; basically making the whatis unnecessary when you want
-# all factoids for a given key.
-#
-# Default value: True
-###
-supybot.plugins.Factoids.replyWhenInvalidCommand: True
-
-###
-# Only allows a user with voice or above on a channel to use the 'learn'
-# and 'forget' commands.
-#
-# Default value: False
-###
-supybot.plugins.Factoids.requireVoice: False
-
-###
-# Determines whether the bot will reply with the single matching factoid
-# if only one factoid matches when using the search command.
-#
-# Default value: True
-###
-supybot.plugins.Factoids.showFactoidIfOnlyOneMatch: True
-
-###
-# Determines whether factoids can be displayed via the web server.
-#
-# Default value: False
-###
-supybot.plugins.Factoids.web.channel: False
-
-###
-# Determines whether the Factoids plugins will be browsable on the HTTP
-# server.
-#
-# Default value: False
-###
-supybot.plugins.Factoids.web.enable: False
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -1266,47 +1115,110 @@ supybot.plugins.Google.searchSnarfer: True
 ###
 # Determines whether this plugin is loaded by default.
 ###
-supybot.plugins.Later: True
-
-###
-# Determines the maximum number of messages to be queued for a user. If
-# this value is 0, there is no maximum.
-#
-# Default value: 0
-###
-supybot.plugins.Later.maximum: 0
-
-###
-# Determines the maximum number of days that a message will remain
-# queued for a user. After this time elapses, the message will be
-# deleted. If this value is 0, there is no maximum.
-#
-# Default value: 30
-###
-supybot.plugins.Later.messageExpiry: 30
-
-###
-# Determines whether users will be notified in the first place in which
-# they're seen, or in private.
-#
-# Default value: False
-###
-supybot.plugins.Later.private: False
+supybot.plugins.Internet: True
 
 ###
 # Determines whether this plugin is publicly visible.
 #
 # Default value: True
 ###
-supybot.plugins.Later.public: True
+supybot.plugins.Internet.public: True
 
 ###
-# Determines whether users will be notified upon joining any channel the
-# bot is in, or only upon sending a message.
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Lart: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Lart.public: True
+
+###
+# Determines whether the bot will show the ids of a lart when the lart
+# is given.
 #
 # Default value: False
 ###
-supybot.plugins.Later.tellOnJoin: False
+supybot.plugins.Lart.showIds: False
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.MessageParser: True
+
+###
+# Determines whether the message parser is enabled. If enabled, will
+# trigger on regexps added to the regexp db.
+#
+# Default value: True
+###
+supybot.plugins.MessageParser.enable: True
+
+###
+# Determines whether the message parser is enabled for NOTICE messages
+# too.
+#
+# Default value: False
+###
+supybot.plugins.MessageParser.enableForNotices: False
+
+###
+# Determines whether we keep updating the usage count for each regexp,
+# for popularity ranking.
+#
+# Default value: True
+###
+supybot.plugins.MessageParser.keepRankInfo: True
+
+###
+# Determines the separator used between regexps when shown by the list
+# command.
+#
+# Default value: , 
+###
+supybot.plugins.MessageParser.listSeparator: ,
+
+###
+# Determines the maximum number of triggers in one message. Set this to
+# 0 to allow an infinite number of triggers.
+#
+# Default value: 0
+###
+supybot.plugins.MessageParser.maxTriggers: 0
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.MessageParser.public: True
+
+###
+# Determines the number of regexps returned by the triggerrank command.
+#
+# Default value: 20
+###
+supybot.plugins.MessageParser.rankListLength: 20
+
+###
+# Determines the capabilities required (if any) to manage the regexp
+# database, including add, remove, lock, unlock. Use 'channel,capab' for
+# channel-level capabilities. Note that absence of an explicit
+# anticapability means user has capability.
+#
+# Default value: admin; channel,op
+###
+supybot.plugins.MessageParser.requireManageCapability: admin; channel,op
+
+###
+# Determines the capability required (if any) to vacuum the database.
+#
+# Default value: admin
+###
+supybot.plugins.MessageParser.requireVacuumCapability: admin
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -1383,33 +1295,6 @@ supybot.plugins.Misc.timestampFormat: [%H:%M:%S]
 ###
 # Determines whether this plugin is loaded by default.
 ###
-supybot.plugins.MoobotFactoids: True
-
-###
-# Determines how many items are shown when the 'most' command is called.
-#
-# Default value: 10
-###
-supybot.plugins.MoobotFactoids.mostCount: 10
-
-###
-# Determines whether this plugin is publicly visible.
-#
-# Default value: True
-###
-supybot.plugins.MoobotFactoids.public: True
-
-###
-# Determines whether or not the factoid value will be shown when a
-# listkeys search returns only one factoid key.
-#
-# Default value: True
-###
-supybot.plugins.MoobotFactoids.showFactoidIfOnlyOneMatch: True
-
-###
-# Determines whether this plugin is loaded by default.
-###
 supybot.plugins.Network: True
 
 ###
@@ -1442,109 +1327,6 @@ supybot.plugins.NickAuth: True
 # Default value: True
 ###
 supybot.plugins.NickAuth.public: True
-
-###
-# Determines whether this plugin is loaded by default.
-###
-supybot.plugins.NuWeather: True
-
-###
-# Sets the DB addressing mode. This requires reloading the plugin to
-# take effect. Valid settings include accounts (save users by Supybot
-# accounts and ident@host if not registered), identhost (save users by
-# ident@host), and nicks (save users by nicks). When changing addressing
-# modes, existing keys will be left intact, but migration between
-# addressing modes is NOT supported.
-#
-# Default value: accounts
-###
-supybot.plugins.NuWeather.DBAddressingMode: accounts
-
-###
-# Sets the API key for apixu.
-#
-# Default value: 
-###
-supybot.plugins.NuWeather.apikeys.apixu: 
-
-###
-# Sets the API key for darksky.
-#
-# Default value: 
-###
-supybot.plugins.NuWeather.apikeys.darksky: b73191f89d86d166cae2442bd0357249
-
-###
-# Sets the API key for googlemaps.
-#
-# Default value: 
-###
-supybot.plugins.NuWeather.apikeys.googlemaps: 
-
-###
-# Sets the API key for opencage.
-#
-# Default value: 
-###
-supybot.plugins.NuWeather.apikeys.opencage: 
-
-###
-# Determines the default weather backend.
-#
-# Default value: darksky
-###
-supybot.plugins.NuWeather.defaultBackend: darksky
-
-###
-# Determines the default geocode backend.
-#
-# Default value: nominatim
-###
-supybot.plugins.NuWeather.geocodeBackend: nominatim
-
-###
-# EXPERIMENTAL: configures NuWeather's output format. Template names are
-# not finalized and may change between releases. If in doubt, leave this
-# option empty and the default format will be used: "$location ::
-# $c__condition $c__temperature (Humidity: $c__humidity) | Feels like:
-# $c__feels_like | Wind: $c__wind $c__wind_dir | $f__0__dayname:
-# $f__0__summary. High $f__0__max. Low $f__0__min. | $f__1__dayname:
-# $f__1__summary. High $f__1__max. Low $f__1__min. | Powered by
-# $poweredby $url"
-#
-# Default value: 
-###
-supybot.plugins.NuWeather.outputFormat: 
-
-###
-# EXPERIMENTAL: configures NuWeather's output format for forecasts.
-# Template names are not finalized and may change between releases. If
-# in doubt, leave this option empty and the default format will be used:
-# "$location :: $f__0__dayname: $f__0__summary ($f__0__min to
-# $f__0__max) | $f__1__dayname: $f__1__summary ($f__1__min to
-# $f__1__max) | $f__2__dayname: $f__2__summary ($f__2__min to
-# $f__2__max) | $f__3__dayname: $f__3__summary ($f__3__min to
-# $f__3__max) | $f__4__dayname: $f__4__summary ($f__4__min to
-# $f__4__max) | Powered by $poweredby $url"
-#
-# Default value: 
-###
-supybot.plugins.NuWeather.outputFormat.forecast: 
-
-###
-# Determines whether this plugin is publicly visible.
-#
-# Default value: True
-###
-supybot.plugins.NuWeather.public: True
-
-###
-# Determines how temperatures will be displayed. F/C means show
-# "50F/10C", C means display only Celsius, and so on.
-#
-# Default value: F/C
-###
-supybot.plugins.NuWeather.units.temperature: F/C
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -1605,117 +1387,180 @@ supybot.plugins.PluginDownloader.public: True
 ###
 # Determines whether this plugin is loaded by default.
 ###
-supybot.plugins.ShrinkUrl: True
-
-###
-# Determines whether this plugin will bold certain portions of its
-# replies.
-#
-# Default value: True
-###
-supybot.plugins.ShrinkUrl.bold: True
-
-###
-# Determines what website the bot will use when shrinking a URL.
-#
-# Default value: x0
-###
-supybot.plugins.ShrinkUrl.default: x0
-
-###
-# The minimum length a URL must be before the bot will shrink it.
-#
-# Default value: 48
-###
-supybot.plugins.ShrinkUrl.minimumLength: 48
-
-###
-# Determines what URLs are to be snarfed; URLs matching the regexp given
-# will not be snarfed. Give the empty string if you have no URLs that
-# you'd like to exclude from being snarfed.
-#
-# Default value: 
-###
-supybot.plugins.ShrinkUrl.nonSnarfingRegexp: 
-
-###
-# Determines whether the bot will shrink the URLs of outgoing messages
-# if those URLs are longer than supybot.plugins.ShrinkUrl.minimumLength.
-#
-# Default value: False
-###
-supybot.plugins.ShrinkUrl.outFilter: False
+supybot.plugins.Praise: True
 
 ###
 # Determines whether this plugin is publicly visible.
 #
 # Default value: True
 ###
-supybot.plugins.ShrinkUrl.public: True
+supybot.plugins.Praise.public: True
 
 ###
-# If set to a non-empty value, specifies the list of services to rotate
-# through for the shrinkSnarfer and outFilter.
-#
-# Default value:  
-###
-supybot.plugins.ShrinkUrl.serviceRotation:  
-
-###
-# Determines whether the shrink snarfer is enabled. This snarfer will
-# watch for URLs in the channel, and if they're sufficiently long (as
-# determined by supybot.plugins.ShrinkUrl.minimumLength) it will post a
-# smaller URL from the service as denoted in
-# supybot.plugins.ShrinkUrl.default.
+# Determines whether the bot will show the ids of a praise when the
+# praise is given.
 #
 # Default value: False
 ###
-supybot.plugins.ShrinkUrl.shrinkSnarfer: True
-
-###
-# Determines whether the snarfer will show the domain of the URL being
-# snarfed along with the shrunken URL.
-#
-# Default value: True
-###
-supybot.plugins.ShrinkUrl.shrinkSnarfer.showDomain: True
+supybot.plugins.Praise.showIds: False
 
 ###
 # Determines whether this plugin is loaded by default.
 ###
-supybot.plugins.String: True
-
-###
-# Determines the maximum size of a string given to the levenshtein
-# command. The levenshtein command uses an O(m*n) algorithm, which means
-# that with strings of length 256, it can take 1.5 seconds to finish;
-# with strings of length 384, though, it can take 4 seconds to finish,
-# and with strings of much larger lengths, it takes more and more time.
-# Using nested commands, strings can get quite large, hence this
-# variable, to limit the size of arguments passed to the levenshtein
-# command.
-#
-# Default value: 256
-###
-supybot.plugins.String.levenshtein.max: 256
+supybot.plugins.Scheduler: True
 
 ###
 # Determines whether this plugin is publicly visible.
 #
 # Default value: True
 ###
-supybot.plugins.String.public: True
+supybot.plugins.Scheduler.public: True
 
 ###
-# Determines the maximum time, in seconds, that a regular expression is
-# given to execute before being terminated. Since there is a possibility
-# that user input for the re command can cause it to eat up large
-# amounts of ram or cpu time, it's a good idea to keep this low. Most
-# normal regexps should not take very long at all.
-#
-# Default value: 0.1
+# Determines whether this plugin is loaded by default.
 ###
-supybot.plugins.String.re.timeout: 0.1
+supybot.plugins.Seen: True
+
+###
+# The minimum non-wildcard characters required to perform a 'seen'
+# request. Of course, it only applies if there is a wildcard in the
+# request.
+#
+# Default value: 2
+###
+supybot.plugins.Seen.minimumNonWildcard: 2
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Seen.public: True
+
+###
+# Determines whether the last message will be displayed with @seen.
+# Useful for keeping messages from a channel private.
+#
+# Default value: True
+###
+supybot.plugins.Seen.showLastMessage: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Services: True
+
+###
+# Determines what nick the 'ChanServ' service has.
+#
+# Default value: ChanServ
+###
+supybot.plugins.Services.ChanServ: ChanServ
+
+###
+# Determines whether the bot will request to get half-opped by the
+# ChanServ when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.halfop: True
+
+###
+# Determines whether the bot will request to get opped by the ChanServ
+# when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.op: True
+
+###
+# Determines what password the bot will use with ChanServ.
+#
+# Default value: 
+###
+supybot.plugins.Services.ChanServ.password: 
+
+###
+# Determines whether the bot will request to get voiced by the ChanServ
+# when it joins the channel.
+#
+# Default value: False
+###
+supybot.plugins.Services.ChanServ.voice: True
+
+###
+# Determines what nick the 'NickServ' service has.
+#
+# Default value: NickServ
+###
+supybot.plugins.Services.NickServ: NickServ
+
+###
+# Determines what password the bot will use with NickServ when
+# identifying as happymeal.
+#
+# Default value: 
+###
+supybot.plugins.Services.NickServ.password.happymeal: u20cp5r8
+
+###
+# Determines what networks this plugin will be disabled on.
+#
+# Default value: QuakeNet
+###
+supybot.plugins.Services.disabledNetworks: QuakeNet
+
+###
+# Determines how many seconds the bot will wait between successive GHOST
+# attempts. Set this to 0 to disable GHOST.
+#
+# Default value: 60
+###
+supybot.plugins.Services.ghostDelay: 60
+
+###
+# Determines what nicks the bot will use with services.
+#
+# Default value:  
+###
+supybot.plugins.Services.nicks: happymeal
+
+###
+# Determines whether the bot will not join any channels until it is
+# identified. This may be useful, for instances, if you have a vhost
+# that isn't set until you're identified, or if you're joining +r
+# channels that won't allow you to join unless you identify.
+#
+# Default value: False
+###
+supybot.plugins.Services.noJoinsUntilIdentified: False
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Services.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.Success: True
+
+###
+# Determines whether the bot will prefix the nick of the user giving an
+# invalid command to the success response.
+#
+# Default value: True
+###
+supybot.plugins.Success.prefixNick: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.Success.public: True
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -2155,7 +2000,7 @@ supybot.reply.showSimpleSyntax: False
 #
 # Default value: 
 ###
-supybot.reply.whenAddressedBy.chars: !
+supybot.reply.whenAddressedBy.chars: ]
 
 ###
 # Determines whether the bot will reply when people address it by its
